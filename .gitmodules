@@ -1,0 +1,9 @@
+[submodule "microservices/ms-sensors-management"]
+	path = microservices/ms-sensors-management
+	url = git@github.com:dutra357/ms-sensors-management.git
+[submodule "microservices/ms-sensors-monitor"]
+	path = microservices/ms-sensors-monitor
+	url = git@github.com:dutra357/ms-sensors-monitor.git
+[submodule "microservices/ms-sensors-processor"]
+	path = microservices/ms-sensors-processor
+	url = git@github.com:dutra357/ms-sensors-processor.git
