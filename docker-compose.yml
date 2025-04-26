@@ -10,6 +10,7 @@ services:
       RABBITMQ_DEFAULT_PASS: rabbitmq
     volumes:
       - rabbitmq:/var/lib/rabbitmq
+      - ./configs/rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins
     
 volumes:
   rabbitmq:
